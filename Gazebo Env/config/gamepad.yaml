@@ -1,0 +1,21 @@
+gamepad_teleop:
+  ros__parameters:
+    # Xbox-style mapping from joy/game_controller_node.
+    axis_steer: 0
+    axis_speed: 1
+    button_enable: 0
+    button_crab: 4
+    button_spin: 5
+
+    require_enable_button: true
+    invert_speed_axis: false
+    deadzone: 0.08
+    command_timeout: 0.30
+
+    max_steering_angle: 0.65
+    max_wheel_speed: 12.0
+    crab_angle: 1.57079632679
+    spin_angle: 1.1200
+
+    # rear-right, rear-left, front-right, front-left
+    drive_signs: [-1.0, -1.0, -1.0, -1.0]

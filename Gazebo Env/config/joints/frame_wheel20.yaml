@@ -1,0 +1,7 @@
+joint:
+  name: frame_wheel20
+  control_mode: position
+  command_topic: /agv_4wis/frame_wheel20/command
+  initial_command: 0.0
+  command_min: -3.14159265
+  command_max: 3.14159265

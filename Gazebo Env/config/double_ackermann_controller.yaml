@@ -1,0 +1,9 @@
+double_ackermann_controller:
+  ros__parameters:
+    wheelbase: 5.40082
+    track_width: 2.32517
+    wheel_radius: 0.14995
+    max_steering_angle: 1.10
+    max_wheel_speed: 30.0
+    command_timeout: 0.30
+    drive_signs: [-1.0, -1.0, -1.0, -1.0]

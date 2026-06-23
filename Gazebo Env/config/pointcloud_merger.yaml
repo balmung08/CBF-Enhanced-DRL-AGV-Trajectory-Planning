@@ -1,0 +1,21 @@
+pointcloud_merger:
+  ros__parameters:
+    input_topics:
+      - /agv_4wis/lidar/rear_right/points
+      - /agv_4wis/lidar/rear_left/points
+      - /agv_4wis/lidar/front_right/points
+      - /agv_4wis/lidar/front_left/points
+    sensor_x: [-2.65652943, -2.65652823, 2.74429417, 2.74429154]
+    sensor_y: [-1.17497706, 1.15019238, -1.17498243, 1.15019083]
+    sensor_z: [1.13, 1.13, 1.13, 1.13]
+    output_topic: /agv_4wis/lidar/points_merged
+    output_frame: frame
+    publish_rate: 10.0
+    max_cloud_age: 0.15
+    filter_center_x: 0.04
+    filter_center_y: -0.01
+    filter_size_x: 6.8
+    filter_size_y: 3.0
+    filter_min_z: 0.05
+    filter_max_z: 3.0
+    filter_min_range: 0.20

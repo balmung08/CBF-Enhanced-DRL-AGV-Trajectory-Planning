@@ -1,0 +1,74 @@
+[
+  {
+    "shape": "Shape6",
+    "safe_name": "Shape6",
+    "owner_link": "Gwheel1",
+    "mesh": "Shape6.dae"
+  },
+  {
+    "shape": "Shape4",
+    "safe_name": "Shape4",
+    "owner_link": "Cylinder1",
+    "mesh": "Shape4.dae"
+  },
+  {
+    "shape": "Shape11",
+    "safe_name": "Shape11",
+    "owner_link": "Gwheel2",
+    "mesh": "Shape11.dae"
+  },
+  {
+    "shape": "Shape10",
+    "safe_name": "Shape10",
+    "owner_link": "Cylinder2",
+    "mesh": "Shape10.dae"
+  },
+  {
+    "shape": "Shape8",
+    "safe_name": "Shape8",
+    "owner_link": "Gwheel4",
+    "mesh": "Shape8.dae"
+  },
+  {
+    "shape": "Shape7",
+    "safe_name": "Shape7",
+    "owner_link": "Cylinder4",
+    "mesh": "Shape7.dae"
+  },
+  {
+    "shape": "Shape2",
+    "safe_name": "Shape2",
+    "owner_link": "Gwheel3",
+    "mesh": "Shape2.dae"
+  },
+  {
+    "shape": "Shape1",
+    "safe_name": "Shape1",
+    "owner_link": "Cylinder3",
+    "mesh": "Shape1.dae"
+  },
+  {
+    "shape": "Shape",
+    "safe_name": "Shape",
+    "owner_link": "frame",
+    "mesh": "Shape.dae"
+  },
+  {
+    "shape": "velodyneVPL_16",
+    "safe_name": "velodyneVPL_16",
+    "owner_link": "frame",
+    "mesh": "velodyneVPL_16.dae"
+  },
+  {
+    "shape": "fastHokuyo_body",
+    "safe_name": "fastHokuyo_body",
+    "owner_link": "frame",
+    "mesh": "fastHokuyo_body.dae"
+  },
+  {
+    "shape": "fastHokuyo_body1#0",
+    "safe_name": "fastHokuyo_body1_0",
+    "owner_link": "frame",
+    "mesh": "fastHokuyo_body1_0.dae"
+  }
+]

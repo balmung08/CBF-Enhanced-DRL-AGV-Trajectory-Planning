@@ -1,0 +1,7 @@
+joint:
+  name: frame_wheel1
+  control_mode: velocity
+  command_topic: /agv_4wis/frame_wheel1/command
+  initial_command: 0.0
+  command_min: -30.0
+  command_max: 30.0

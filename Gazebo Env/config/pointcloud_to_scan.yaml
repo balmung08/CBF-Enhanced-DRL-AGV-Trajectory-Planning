@@ -1,0 +1,17 @@
+pointcloud_to_scan:
+  ros__parameters:
+    input_topic: /agv_4wis/lidar/points_merged
+    output_topic: /agv_4wis/scan
+    output_frame: scan_frame
+    parent_frame: frame
+    scan_z: 3.13
+    min_height: 0.10
+    max_height: 2.00
+    angle_min: -3.141592653589793
+    angle_max: 3.141592653589793
+    angle_increment: 0.0174532925199433
+    range_min: 0.20
+    range_max: 30.0
+    scan_time: 0.0
+    use_inf: true
+    inf_epsilon: 1.0
