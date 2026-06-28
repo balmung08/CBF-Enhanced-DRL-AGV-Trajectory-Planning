@@ -3,9 +3,6 @@
 Standalone ROS 2 Humble/Gazebo Classic package containing the AGV simulation
 environment, low-level four-wheel independent steering control, and sensors.
 
-This public package intentionally contains no MPC, trajectory tracker, CasADi
-solver, optimized trajectory, or comparison result data.
-
 ## Included
 
 - Detailed AGV visual model and collision model.
@@ -98,7 +95,3 @@ publish to the same low-level joint topics.
 The dynamic TF is `world -> frame`, where `world` is initialized at the AGV
 starting pose. Lidar static transforms are children of `frame`.
 
-## License
-
-Apache-2.0. Check the licenses of third-party mesh assets before redistributing
-them outside the terms under which they were originally obtained.
